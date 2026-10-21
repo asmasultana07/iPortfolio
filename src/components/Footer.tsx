@@ -31,15 +31,17 @@ export const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="py-12 border-t border-purple-900/30 bg-[#0c0414] text-xs text-slate-400">
+    <footer className="py-10 border-t border-purple-900/30 bg-[#0c0414] text-xs text-slate-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-white/5">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-white/5">
           
           {/* Brand info: Just Name */}
           <div>
             <span className="font-bold text-white text-base font-heading tracking-wide">
               {portfolioOwner.name}
             </span>
+              <p> Open to remote &amp; on-site roles</p>
+                        
           </div>
 
           {/* Quick links - Same order as Navbar */}

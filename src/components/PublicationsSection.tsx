@@ -32,7 +32,7 @@ export const PublicationsSection: React.FC = () => {
           {publicationsData.map((pub, idx) => (
             <div
               key={idx}
-              className="p-8 sm:p-10 rounded-3xl bg-[#170a29]/80 border border-purple-900/40 glow-card relative overflow-hidden"
+              className="p-8 sm:p-10 rounded-3xl bg-blue-300/10 border border-purple-900/40 glow-card relative overflow-hidden"
             >
               {/* Status & Journal Badges with Icon */}
               <div className="flex items-start gap-4 mb-4 pb-4 border-b border-white/10">

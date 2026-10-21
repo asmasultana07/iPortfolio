@@ -43,7 +43,7 @@ export const ExperienceSection: React.FC = () => {
           {experienceData.map((exp, idx) => (
             <div
               key={idx}
-              className="p-8 sm:p-10 rounded-3xl bg-[#170a29]/80 border border-purple-900/40 glow-card relative overflow-hidden space-y-6"
+              className="p-8 sm:p-10 rounded-3xl bg-blue-300/10 border border-purple-900/40 glow-card relative overflow-hidden space-y-6"
             >
               {/* Header: Icon + Role & Company on left, Session tag on right */}
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-white/10">

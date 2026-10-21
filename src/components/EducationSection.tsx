@@ -41,7 +41,7 @@ export const EducationSection: React.FC = () => {
         </div>
 
         {/* Education Highlight Box */}
-        <div className="max-w-4xl mx-auto p-8 sm:p-10 rounded-3xl bg-[#170a29]/80 border border-purple-900/40 glow-card relative overflow-hidden space-y-8">
+        <div className="max-w-4xl mx-auto p-8 sm:p-10 rounded-3xl bg-blue-300/10 border border-purple-900/40 glow-card relative overflow-hidden space-y-8">
           
           <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 pb-6 border-b border-white/10">
             <div className="flex items-start gap-4">
@@ -124,7 +124,7 @@ export const EducationSection: React.FC = () => {
               {educationData.keyCourses.map((course) => (
                 <div
                   key={course}
-                  className="px-4 py-3 rounded-xl text-xs sm:text-sm font-medium bg-[#1e0c35]/80 border border-purple-800/40 text-slate-200 hover:border-violet-400/50 hover:bg-[#250f40] transition-colors flex items-center gap-3"
+                  className="px-4 py-3 rounded-xl text-xs sm:text-sm font-medium bg-blue-300/10 border border-purple-800/40 text-slate-200 hover:border-violet-400/50 hover:bg-[#250f40] transition-colors flex items-center gap-3"
                 >
                   <span className="w-2 h-2 rounded-full bg-violet-400 shrink-0" />
                   <span>{course}</span>
