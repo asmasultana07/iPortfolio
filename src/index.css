@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom glow and smooth animations */
+.glow-card {
+  box-shadow: 0 0 25px -5px rgba(90, 85, 247, 0.15);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glow-card:hover {
+  box-shadow: 0 0 35px 2px rgba(192, 132, 252, 0.25);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #170d24;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4c1d95;
+  border-radius: 9999px;
+}
